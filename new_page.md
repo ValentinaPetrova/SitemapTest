@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: New page
 permalink: /new_page/
 ---
 
