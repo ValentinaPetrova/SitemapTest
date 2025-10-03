@@ -19,7 +19,7 @@ In this topic, we will cover some common scenarios in the EntityFramework unit t
 
 #### __[C#]__
 
-{{region EntityFramework#Samples}}
+<!-- Code sample: EntityFramework#Samples -->
     public class NerdDinners : DbContext
     {
         public DbSet<Dinner> Dinners { get; set; }
@@ -41,7 +41,7 @@ In this topic, we will cover some common scenarios in the EntityFramework unit t
         public int DinnerID { get; set; }
         public string AtendeeEmail { get; set; }
     }
-{{endregion}}
+<!-- End code sample -->
 
 
 ## Returning A Fake Collection
@@ -52,7 +52,7 @@ The following steps demonstrate how to return a fake collection:
 
 #### __[C#]__
 
-{{region EntityFramework#FakeDinnersReturn}}
+<!-- Code sample: EntityFramework#FakeDinnersReturn -->
     public IList<Dinner> FakeDinners()
     { 
         List<Dinner> fakeDin = new List<Dinner>
@@ -62,7 +62,7 @@ The following steps demonstrate how to return a fake collection:
 
       return fakeDin;
     }
-{{endregion}}
+<!-- End code sample -->
 
 1. Create a new instance of the `NerdDinners` class.
 
@@ -78,7 +78,7 @@ The following steps demonstrate how to return a fake collection:
 
 #### __[C#]__
 
-{{region EntityFramework#MockingCollectionReturn}}
+<!-- Code sample: EntityFramework#MockingCollectionReturn -->
     [TestMethod]
     public void ShouldReturnFakeCollectionWhenExpected()
     {
@@ -96,7 +96,7 @@ The following steps demonstrate how to return a fake collection:
         Assert.AreEqual(1, query.Count());
         Assert.AreEqual(1, query.First().DinnerID);
     }
-{{endregion}}
+<!-- End code sample -->
 
 ## Returning A Fake Collection with Future Mocking
 
@@ -104,7 +104,7 @@ In this example we will return the same fake collection.
 
 #### __[C#]__
 
-{{region EntityFramework#FakeDinnersReturn}}
+<!-- Code sample: EntityFramework#FakeDinnersReturn -->
     public IList<Dinner> FakeDinners()
     { 
         List<Dinner> fakeDin = new List<Dinner>
@@ -114,13 +114,13 @@ In this example we will return the same fake collection.
 
         return fakeDin;
     }
-{{endregion}}
+<!-- End code sample -->
 
 To assure that the instance does not matter during the __Act__ phase we will make a repository class:
 
 #### __[C#]__
 
-{{region EntityFramework#DinnersRepository}}
+<!-- Code sample: EntityFramework#DinnersRepository -->
     public class DinnerRepository
     {
         public Dinner GetById(int dinnerId)
@@ -133,15 +133,15 @@ To assure that the instance does not matter during the __Act__ phase we will mak
             return query.First();
         }
     }
-{{endregion}}
+<!-- End code sample -->
 
-As you see, in the test below we are acting with a `new DinnerRepository()`, but still we are meeting the expectations and the test passes. This behavior is known and expected in [Future Mocking]({%slug justmock/advanced-usage/future-mocking%}).
+As you see, in the test below we are acting with a `new DinnerRepository()`, but still we are meeting the expectations and the test passes. This behavior is known and expected in Future Mocking.
 
 > Note that when you use `ReturnsCollection()` you must be using the `Telerik.JustMock.Helpers;` namespace.
 
 #### __[C#]__
 
-{{region EntityFramework#FutureMockingCollectionReturn}}
+<!-- Code sample: EntityFramework#FutureMockingCollectionReturn -->
     [TestMethod]
     public void ShouldReturnFakeCollectionForFutureInstance()
     {
@@ -151,7 +151,7 @@ As you see, in the test below we are acting with a `new DinnerRepository()`, but
 
         Assert.AreEqual(1, new DinnerRepository().GetById(1).DinnerID);
     }   
-{{endregion}}
+<!-- End code sample -->
 
 ## Faking the Add of an Entity
 
