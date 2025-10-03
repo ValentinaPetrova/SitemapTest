@@ -14,6 +14,7 @@ The main purpose of this repository is to:
 - Test sitemap generation with Jekyll
 - Provide sample content for testing with Nuclia
 - Demonstrate best practices for Jekyll site structure
+- will Nuclia detect this change 
 
 ## Technology
 
