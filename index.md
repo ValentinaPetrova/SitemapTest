@@ -13,6 +13,7 @@ This site demonstrates:
 - How to set up a basic Jekyll website
 - How to generate a sitemap automatically using the `jekyll-sitemap` plugin
 - How to structure content with multiple pages and blog posts
+- changes to be detected with Nuclia ****
 
 ## Navigation
 
