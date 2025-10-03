@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Testing with Nuclia"
-date: 2024-02-01 09:00:00 +0000
 categories: testing nuclia
 ---
 

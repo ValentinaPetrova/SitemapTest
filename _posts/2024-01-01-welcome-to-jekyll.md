@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Welcome to Jekyll"
-date: 2024-01-01 10:00:00 +0000
 categories: jekyll introduction
 ---
 
