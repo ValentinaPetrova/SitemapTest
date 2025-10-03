@@ -1,7 +1,7 @@
 # Jekyll Configuration
 title: Sitemap Test Website
 description: A test website to demonstrate Jekyll sitemap generation
-url: "https://valentinaapetrova.github.io"
+url: "https://valentinapetrova.github.io"
 baseurl: "/SitemapTest"
 
 # Build settings
