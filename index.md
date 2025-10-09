@@ -1,32 +1,35 @@
 ---
 layout: default
-title: Portfolio
+title: Sloths – Nature's Chill Masters
 ---
 
-# Welcome to My Creative Portfolio
+# Welcome to the World of Sloths
 
-Explore a curated collection of projects, experiments, and ideas that showcase my journey through design, development, and innovation.
+Discover the slow-moving charm of one of nature’s most fascinating creatures. Sloths are known for their relaxed lifestyle, unique biology, and surprising adaptations that help them thrive in the treetops of Central and South America.
 
-## What You'll Find Here
+## What You'll Learn Here
 
-This site features:
-- A selection of personal and collaborative projects
-- Tutorials and insights into modern web development
-- Interactive demos and prototypes
-- Integration examples with tools like Nuclia for smart content indexing
+This page features:
+- An introduction to sloth species and habitats
+- Insights into their slow metabolism and behavior
+- Conservation efforts and ecological importance
+- Fun facts and myths about sloths
 
 ## Explore
 
-- Projects
-- Tutorials
-- Contact Me
+- Species Overview
+- Life in the Canopy
+- Conservation Stories
+- Sloth-Inspired Art
 
-## Featured Work
+## Featured Highlights
 
-Take a look at some of the highlighted projects that blend creativity with technology:
+Take a closer look at what makes sloths so special:
 
-- **Design System Explorer** – A modular UI kit built with accessibility in mind.
-- **AI-Powered Search** – Leveraging Nuclia to create intelligent search experiences.
-- **Interactive Data Visualizer** – A tool for dynamic data storytelling.
+- **Two-Toed vs. Three-Toed Sloths** – Learn the differences between these two main types.
+- **Slow Metabolism, Smart Survival** – How sloths use energy efficiency to their advantage.
+- **Camouflage Champions** – Discover how algae and fur help sloths blend into their environment.
+- **Sloth Sanctuaries** – Explore places dedicated to rescuing and rehabilitating sloths.
 
-Stay tuned for updates and new content as the portfolio evolves!
+Stay tuned for more sloth stories, photos, and updates from the rainforest!
+
