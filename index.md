@@ -24,6 +24,8 @@ This page features:
 
 ## Featured Highlights
 
+# Something to be catched from Nuclia 
+
 Take a closer look at what makes sloths so special:
 
 - **Two-Toed vs. Three-Toed Sloths** – Learn the differences between these two main types.
