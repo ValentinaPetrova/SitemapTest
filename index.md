@@ -1,26 +1,32 @@
 ---
 layout: default
-title: Home
+title: Portfolio
 ---
 
-# Welcome to Sitemap Test Website
+# Welcome to My Creative Portfolio
 
-This is a test website created to demonstrate Jekyll's sitemap generation capabilities.
+Explore a curated collection of projects, experiments, and ideas that showcase my journey through design, development, and innovation.
 
-## What is this site about?
+## What You'll Find Here
 
-This site demonstrates:
-- How to set up a basic Jekyll website
-- How to generate a sitemap automatically using the `jekyll-sitemap` plugin
-- How to structure content with multiple pages and blog posts
-- changes to be detected with Nuclia ****
+This site features:
+- A selection of personal and collaborative projects
+- Tutorials and insights into modern web development
+- Interactive demos and prototypes
+- Integration examples with tools like Nuclia for smart content indexing
 
-## Navigation
+## Explore
 
-- [About](/SitemapTest/about/)
-- [Contact](/SitemapTest/contact/)
-- [Blog Posts](/SitemapTest/blog/)
+- Projects
+- Tutorials
+- Contact Me
 
-## Latest Posts
+## Featured Work
 
-Check out our latest blog posts to see how Jekyll handles different types of content in the sitemap.
+Take a look at some of the highlighted projects that blend creativity with technology:
+
+- **Design System Explorer** – A modular UI kit built with accessibility in mind.
+- **AI-Powered Search** – Leveraging Nuclia to create intelligent search experiences.
+- **Interactive Data Visualizer** – A tool for dynamic data storytelling.
+
+Stay tuned for updates and new content as the portfolio evolves!
